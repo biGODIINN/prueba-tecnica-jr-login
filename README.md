@@ -25,3 +25,7 @@
 - La carpeta de BackLogin tiene un archivo que se llama serve.js, donde se encuentram las configuraciones de la base de dados
 y el puerto del Backend.
 - En la carpeta Login del front hay 2 archivos llamados auth.service.ts, data.service.ts donde tienem configurada la URL del Backend (http://localhost:5000)
+
+# Credenciales para la prueba
+Usuario: kminchelle
+Contraseña: 0lelplR
