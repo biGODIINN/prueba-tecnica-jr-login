@@ -1,0 +1,16 @@
+<div class="success-container">
+    <h2>{{ username }}!</h2>
+  
+    <div *ngIf="userData">
+      <p>Usuario: {{ userData.username }}</p>
+      <p>Correo: {{ userData.email }}</p>
+      <p>Nombre: {{ userData.firstname }}</p>
+      <p>Apellido: {{ userData.lastname }}</p>
+      <p>Genero: {{ userData.gender }}</p>
+      <p style="word-break: break-all;">Token: {{ userData.token }}</p>
+      
+    </div>
+  
+  
+    <button (click)="logout()">Cerrar Sesion</button>
+  </div>

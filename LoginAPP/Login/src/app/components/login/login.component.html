@@ -1,0 +1,9 @@
+<div class="form-container">
+  <form (ngSubmit)="login()">
+    <div class="sesion">Iniciar Sesion</div>
+    <input type="text" name="username" [(ngModel)]="username" placeholder="Usuario">
+    <input type="password" name="password" [(ngModel)]="password" placeholder="Contraseña">
+    <button type="submit">Ingresar</button>
+  </form>
+</div>
+
