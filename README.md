@@ -7,15 +7,14 @@
 - Angular 17
 - Node 20.16.0
 
-# Instalaciones nesesarias
-- npm install sweetalert2
-- npm install bootstrap
-- npm i bootstrap@5.3.3
-- npm install tslib --save
-- npm install express mysql2 body-parser cors
-- npm install mysql
-- npm i --save-dev @types/jquery
-
+# Paso a paso para instalacion
+- Clonar el repositorio de GitHub
+- Importar archivo login.sql en la base de dados
+- Instalar Node (Se es que no estas instalado)
+- En lo terminal del Backend y del Frontend, ejecutar npm install para instalar Node en el proyecto
+- Ejecutar npm run start para echar a correr el Backend
+- En el Frontend ejecutar ng serve para ejecutar angular y listo 
+ 
 # Comandos
 - Frontend:ng serve
 - Backend: npm run start
@@ -24,7 +23,7 @@
 - El archivo login.sql contiene la base de datos utilizada para esta prueba.
 - La carpeta de BackLogin tiene un archivo que se llama serve.js, donde se encuentram las configuraciones de la base de dados
 y el puerto del Backend.
-- En la carpeta Login del front hay 2 archivos llamados auth.service.ts, data.service.ts donde tienem configurada la URL del Backend (http://localhost:5000)
+- En la carpeta Login del Frontend hay 2 archivos llamados auth.service.ts, data.service.ts donde tienem configurada la URL del Backend (http://localhost:5000)
 
 # Credenciales para la prueba
 Usuario: kminchelle
